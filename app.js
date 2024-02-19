@@ -1,2 +1,7 @@
-var personName = "Eric";
-console.log("hellow ".concat(personName, " would you like to some python today?"));
+// Lower case
+var personName = "Syed Abdullah Zaidi";
+console.log("lower case:", personName.toLowerCase());
+// Upper case
+console.log("uppercase:", personName.toUpperCase());
+// Title case
+console.log("titlecase;", personName.replace(/\bw/g, function (c) { return c.toUpperCase(); }));

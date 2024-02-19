@@ -1,5 +1,5 @@
 "use strict";
-// Program written by: Syed Abdullah Zaidi
-// Current Date: 18-2-24
-// This program will write Hello world
-console.log('Hello world');
+let names = ['Syed Abdullah', 'Raheem', 'Rajab', 'Farjad'];
+for (let i = 0; i < names.length; i++) {
+    console.log(names[i]);
+}

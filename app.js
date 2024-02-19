@@ -1,4 +1,5 @@
-var qoute = "A person who never made a mistake never tried anything new";
-var famous_person = "Albert Einstein";
-var message = "".concat(famous_person, " once said, ").concat(qoute);
-console.log(message);
+"use strict";
+const personName = `   \n\tSyed Abdullah\t\n   `;
+console.log(personName);
+const without_whitespace = personName.trim();
+console.log(without_whitespace);

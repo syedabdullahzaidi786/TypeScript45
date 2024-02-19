@@ -1,4 +1,5 @@
 "use strict";
-const favourite_Number = 7;
-const message = 'Here is your favourite number ' + favourite_Number;
-console.log(message);
+// Program written by: Syed Abdullah Zaidi
+// Current Date: 18-2-24
+// This program will write Hello world
+console.log('Hello world');

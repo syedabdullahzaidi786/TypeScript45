@@ -1,6 +1,5 @@
 "use strict";
-let names = ['Syed Abdullah', 'Raheem', 'Rajab', 'Farjad'];
-const message = 'Welcome to Typescript code: ';
-for (let i = 0; i < names.length; i++) {
-    console.log(message + names[i]);
+let transportation = ['Motorcycle', 'Car', 'Train', 'Cycle'];
+for (let i = 0; i < transportation.length; i++) {
+    console.log('I would like to own a ' + transportation[i]);
 }
